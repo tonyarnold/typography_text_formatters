@@ -10,8 +10,8 @@
 		function about(){
 			return array(
 			  'name' => 'Typography + Markdown Extra Text Formatter',
-				'version' => '1.0',
-				'release-date' => '2010-03-29',
+        'version' => '1.0.1',
+        'release-date' => '2010-03-30',
 				'author' => array(
 					'name' => 'Tony Arnold',
 					'website' => 'http://www.tonyarnold.com',

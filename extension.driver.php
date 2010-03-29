@@ -5,8 +5,8 @@
 		public function about(){
 			return array(
 			  'name' => 'Typography Text Formatters',
-        'version' => '1.0',
-        'release-date' => '2010-03-29',
+        'version' => '1.0.1',
+        'release-date' => '2010-03-30',
         'author' => array(
           'name' => 'Tony Arnold',
           'website' => 'http://www.tonyarnold.com',

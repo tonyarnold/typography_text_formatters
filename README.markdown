@@ -2,9 +2,9 @@
 
 This extension provides [PHP Typography][] formatting for text fields.
 
-- Version: 1.0
+- Version: 1.0.1
 - Date: 30th March 2010
-- Requirements: Symphony 2.0.6+
+- Requirements: Symphony 2.0.7+
 - Author: Tony Arnold, tony@tonyarnold.com
 - Constributors: [A list of contributors can be found in the commit history](http://github.com/tonyarnold/symphony-typography/commits/master)
 - GitHub Repository: <http://github.com/tonyarnold/symphony-typography>
@@ -26,6 +26,10 @@ Information about [installing and updating extensions](http://symphony-cms.com/l
 
 
 ## Change Log
+
+**Version 1.0.1**
+
+- Extended characters are properly represented as numeric HTML entities now.
 
 **Version 1.0**
 
