@@ -25,7 +25,7 @@
   			self::$_typo = new phpTypography();
   		}
 		  
-      $result = self::$_typo->process($result);
+      $result = self::$_typo->process($string, TRUE);
       $result = utf8tohtml($result, FALSE);
       $result = html_convert_entities($result);
 
