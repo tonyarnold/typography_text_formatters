@@ -1,5 +1,7 @@
 <?php
 
+  include_once(EXTENSIONS . '/typography/lib/html_helpers.php');
+
 	Class formatterTypography extends TextFormatter {
 		
 		private static $_typo;
@@ -20,10 +22,14 @@
 		public function run($string){
   		if(!self::$_typo){
   			include_once(EXTENSIONS . '/typography/lib/php-typography/php-typography.php');
-  			self::$_typo = new phpTypography(TRUE);
+  			self::$_typo = new phpTypography();
   		}
 		  
-		  return self::$_typo->process($string);
+      $result = self::$_typo->process($result);
+      $result = utf8tohtml($result, FALSE);
+      $result = html_convert_entities($result);
+
+			return $result;
 		}
 		
 	}

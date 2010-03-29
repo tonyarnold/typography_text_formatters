@@ -1,5 +1,7 @@
 <?php
 
+  include_once(EXTENSIONS . '/typography/lib/html_helpers.php');
+
 	Class formatterTypography_With_Textile extends TextFormatter {
 
 		private static $_parser;
@@ -26,12 +28,15 @@
 
 			if(!self::$_typo){
 				include_once(EXTENSIONS . '/typography/lib/php-typography/php-typography.php');
-				self::$_typo = new phpTypography(TRUE);
+				self::$_typo = new phpTypography();
 			}
 
 			$result = self::$_parser->TextileThis($string);
+      $result = self::$_typo->process($result);
+      $result = utf8tohtml($result, FALSE);
+      $result = html_convert_entities($result);
 
-			return self::$_typo->process($result);
+			return $result;
 		}
 
 	}
