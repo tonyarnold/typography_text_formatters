@@ -1,6 +1,6 @@
 # Typography Text Formatters #
 
-This extension provides [wp-Typography][wp-Typography] formatting for text fields.
+This extension provides [PHP Typography][] formatting for text fields.
 
 - Version: 1.0
 - Date: 30th March 2010
@@ -18,7 +18,7 @@ Improve your web typography with: hyphenation, space control, intelligent charac
 * Markdown Extra
 * Textile
 
-The formatted text is then run through the [wp-Typography][wp-Typography] library. This extension is a spiritual successor to my old "Typogrify" extension - the two shouldn't be used together, and this extension is likely to produce better results.
+The formatted text is then run through the [PHP Typography][] library. This extension is a spiritual successor to my old "Typogrify" extension - the two shouldn't be used together, and this extension is likely to produce better results.
 
 ## Installation & Updating
 
@@ -32,4 +32,4 @@ Information about [installing and updating extensions](http://symphony-cms.com/l
 - Initial release.
 
 
- [wp-Typography]: http://kingdesk.com/projects/wp-typography/
+ [PHP Typography]: http://kingdesk.com/projects/php-typography/

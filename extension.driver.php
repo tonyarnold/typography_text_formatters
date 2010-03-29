@@ -11,7 +11,7 @@
           'name' => 'Tony Arnold',
           'website' => 'http://www.tonyarnold.com',
           'email' => 'tony@tonyarnold.com'),
-        'description' => 'Format entries using the php-typography HTML formatter.'
+        'description' => 'Format entries using the PHP Typography HTML formatter.'
       );
 		}
 

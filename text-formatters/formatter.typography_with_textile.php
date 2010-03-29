@@ -14,7 +14,7 @@
 					'name' => 'Tony Arnold',
 					'website' => 'http://www.tonyarnold.com',
 					'email' => 'tony@tonyarnold.com'),
-				'description' => 'Format entries using Textile, then using the php-typography HTML formatter.'
+				'description' => 'Format entries using Textile, then using the PHP Typography HTML formatter.'
 			);
 		}
 
@@ -25,7 +25,7 @@
 			}
 
 			if(!self::$_typo){
-				include_once(EXTENSIONS . '/typography/lib/wp-typography/php-typography/php-typography.php');
+				include_once(EXTENSIONS . '/typography/lib/php-typography/php-typography.php');
 				self::$_typo = new phpTypography(TRUE);
 			}
 
