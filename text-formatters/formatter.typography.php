@@ -23,6 +23,7 @@
   		if(!self::$_typo){
   			include_once(EXTENSIONS . '/typography/lib/php-typography/php-typography.php');
   			self::$_typo = new phpTypography();
+  			self::$_typo->set_hyphenation(false);
   		}
 		  
       $result = self::$_typo->process($string, TRUE);
