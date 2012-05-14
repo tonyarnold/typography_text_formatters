@@ -1,6 +1,6 @@
 <?php
 
-	include_once(EXTENSIONS . '/typography-text-formatters/lib/html_helpers.php');
+	include_once(EXTENSIONS . '/typography_text_formatters/lib/html_helpers.php');
 
 	Class formatterTypography_With_Textile extends TextFormatter {
 
@@ -23,12 +23,12 @@
 
 		public function run($string) {
 			if (!self::$_parser) {
-				include_once(EXTENSIONS . '/typography-text-formatters/lib/textile.php');
+				include_once(EXTENSIONS . '/typography_text_formatters/lib/textile.php');
 				self::$_parser = new Textile();
 			}
 
 			if (!self::$_typo) {
-				include_once(EXTENSIONS . '/typography-text-formatters/lib/php-typography/php-typography.php');
+				include_once(EXTENSIONS . '/typography_text_formatters/lib/php-typography/php-typography.php');
 				self::$_typo = new phpTypography();
 				self::$_typo->set_hyphenation(false);
 			}
