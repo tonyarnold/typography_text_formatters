@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension id="typography-text-formatters" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+<extension id="typography_text_formatters" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
 	<name>Typography Text Formatters</name>
 	<description>Provides PHP Typography formatting for text fields.</description>
 	<repo type="github">https://github.com/tonyarnold/typography-text-formatters</repo>
 	<url type="discuss">http://symphony-cms.com/discuss/thread/42106/</url>
 	<types>
-		<type>Text Formatters</type>
+		<type>Text Formatter</type>
 	</types>
 	<authors>
 		<author>
