@@ -27,7 +27,7 @@ Information about [installing and updating extensions](http://symphony-cms.com/l
 
 ## Change Log
 
-** Version 1.0.2**
+**Version 1.0.2**
 
 - Updated to reflect changes in Symphony 2.3
 
