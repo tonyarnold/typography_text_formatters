@@ -1,6 +1,6 @@
 <?php
 
-	include_once(EXTENSIONS . '/typography/lib/html_helpers.php');
+	include_once(EXTENSIONS . '/typography-text-formatters/lib/html_helpers.php');
 
 	Class formatterTypography extends TextFormatter {
 
@@ -22,7 +22,7 @@
 
 		public function run($string){
 			if (!self::$_typo) {
-				include_once(EXTENSIONS . '/typography/lib/php-typography/php-typography.php');
+				include_once(EXTENSIONS . '/typography-text-formatters/lib/php-typography/php-typography.php');
 				self::$_typo = new phpTypography();
 				self::$_typo->set_hyphenation(false);
 			}
