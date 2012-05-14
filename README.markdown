@@ -2,8 +2,8 @@
 
 This extension provides [PHP Typography][] formatting for text fields.
 
-- Version: 1.0.1
-- Date: 30th March 2010
+- Version: 1.0.2
+- Date: 14th May 2012
 - Requirements: Symphony 2.0.7+
 - Author: Tony Arnold, tony@tonyarnold.com
 - Constributors: [A list of contributors can be found in the commit history](http://github.com/tonyarnold/symphony-typography/commits/master)
@@ -26,6 +26,10 @@ Information about [installing and updating extensions](http://symphony-cms.com/l
 
 
 ## Change Log
+
+** Version 1.0.2**
+
+- Updated to reflect changes in Symphony 2.3
 
 **Version 1.0.1**
 
