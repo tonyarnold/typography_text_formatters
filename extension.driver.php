@@ -1,6 +1,6 @@
 <?php
 
-	Class extension_Typography extends Extension {
+	Class extension_typography_text_formatters extends Extension {
 
 	}
 
